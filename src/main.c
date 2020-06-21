@@ -1,12 +1,15 @@
+/**
+ * Hello World Example
+ * Created With Genesis-Code extension for Visual Studio Code
+ * Use "Genesis Code: Compile" command to compile this program.
+ **/
 #include <genesis.h>
-#include <string.h>
 
 int main()
 {
-
+    VDP_drawText("Hello Sega!!", 10,13);
     while(1)
     {
-        VDP_drawText("Hello Mega Drive World!", 8, 12);
         VDP_waitVSync();
     }
     return (0);
