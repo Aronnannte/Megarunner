@@ -1,4 +1,5 @@
 #include <genesis.h>
+#include <string.h>
 
 int main()
 {
