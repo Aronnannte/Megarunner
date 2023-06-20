@@ -167,7 +167,7 @@ int main()
             SPR_setPosition(player, player_x, fix16ToInt(player_y));
             SPR_update();
         }
-        VDP_waitVSync();
+        SYS_doVBlankProcess();
     }
     return (0);
 }
